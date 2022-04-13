@@ -1,0 +1,19 @@
+package sdk.modules;
+
+public enum BookingStatus {
+    INITIATED,
+    ACCEPTED,
+    REJECTED,
+    PICKED_UP,
+    REACHED_GARAGE,
+    UNDER_SERVICE,
+    SERVICE_COMPLETED,
+    BILL_GENERATED,
+    PAYMENT_RECEIVED,
+    LEFT_GARAGE,
+    REACHED_DESTINATION,
+    DROPPED,
+    COMPLETED,
+    CANCELLED;
+}
+
